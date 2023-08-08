@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="natty">
+    <div style="text-align: center;">
+        <h1>EXERCÍCIO 48</h1><br><br>
+        <img src="fotodovisualgp_Easy.jpg">
+        <br><br><div class="code">
+            <pre><code id="code-snippet">
+Algoritmo "ex48"
+Var
+peso, altura, imc: Real
+Inicio
+Escreva("Digite seu peso:")
+Leia(peso)
+Escreva("Digite sua altura (em centímetros):")
+Leia(altura)
+imc <- peso / (altura * altura)
+imc <- imc * 10000
+EscrevaL("SEU IMC: ", imc)
+Se imc < 18 Entao
+EscrevaL(" ABAIXO DO PESO.")
+Senao
+Se imc < 25 Entao
+EscrevaL(" NORMAL.")
+Senao
+EscrevaL(" ACIMA DO PESO.")
+FimSe
+FimSe
+FimAlgoritmo    
+            </code></pre>
+            <button onclick="copyToClipboard()">Copiar</button>
+          </div>
+</body>
+</html>

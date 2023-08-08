@@ -1,0 +1,52 @@
+.fake{
+    background-image: url("https://www.teahub.io/photos/full/35-351823_goku-black-background-dragon-ball-z-wallpaper-pc.jpg");
+    background-size: 100%;
+    zoom: 150%;
+}
+.body2{
+    background-image: url("https://www.teahub.io/photos/full/35-351823_goku-black-background-dragon-ball-z-wallpaper-pc.jpg");
+    background-size: 100%;
+    zoom: 150%;
+}
+.natty{
+    background-image: url("https://www.teahub.io/photos/full/35-351823_goku-black-background-dragon-ball-z-wallpaper-pc.jpg");
+    background-size: 107%;
+    zoom: 150%;
+}
+h1{
+    font-family: 'Verdana';
+    color: white;
+}
+#alt{
+    font-family: 'Verdana';
+    color: white;
+}
+#pes{
+    font-family: 'Verdana';
+    color: white;
+}
+#imc{
+    font-family: 'Verdana';
+    color: white;
+}
+#resultadoo{
+    font-family: 'Verdana';
+    color: white;
+}
+#txt{
+    color: white;
+}
+.javaS{
+    display: flexbox;
+    text-align: center;
+    color: white;
+}
+.code-box{
+    color: white;
+    font-size: 30%;
+}
+.code{
+    color: white;
+    text-align: left;
+    font-size: 70%;
+}

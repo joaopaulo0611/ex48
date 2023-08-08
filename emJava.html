@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body2">
+    <div class="javaS">
+        <h1>EXERCÍCIO 48</h1><br><br>
+        <p id="pes">PESO:</p>
+        <input id="peso" type="number"><br><br><br>
+        <p id="alt">ALTURA(em metros):</p>
+        <input id="altura" type="number"><br><br><br><br><br><br>
+        <p id="imc">IMC</p>
+        <button onclick="calcularIMC()">Resultado:</button>
+        <p id="resultadoo">___</p>
+    </div>
+          <div class="code-box">
+            <pre><code id="code-snippet">
+                function comorbidade(){
+                    var idade = Number(document.getElementById("idade").value)
+                    var comorbidade = (document.getElementById("comorbidade").value)
+                    if (idade >= 60 || comorbidade == "S"){
+                        document.getElementById("resposta").innerText = "Pode se vacinar!"
+                    }
+                    else {
+                        document.getElementById("resposta").innerText = "Não pode se vacinar!"
+                    }
+                }
+            </code></pre>
+            <button onclick="copyToClipboard()">Copiar</button>
+          </div>
+    
+</body>
+</html>
