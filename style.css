@@ -35,6 +35,7 @@ h1{
 }
 #txt{
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .javaS{
     display: flexbox;
@@ -43,10 +44,44 @@ h1{
 }
 .code-box{
     color: white;
-    font-size: 30%;
+    font-size: 75%;
 }
 .code{
     color: white;
     text-align: left;
     font-size: 70%;
+}
+#botaoj{
+    background-image: linear-gradient(chocolate, yellow);
+    color: white;
+    border-radius: 10px;
+    border-color: aliceblue;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#botaov{
+    background-image: linear-gradient(chocolate, yellow);
+    color: white;
+    border-radius: 10px;
+    border-color: aliceblue;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#calcularimc{
+    background-image: linear-gradient(chocolate, yellow);
+    color: white;
+    border-radius: 10px;
+    border-color: aliceblue;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#titulov{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
 }
